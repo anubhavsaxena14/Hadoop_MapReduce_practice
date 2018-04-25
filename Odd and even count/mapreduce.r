@@ -1,4 +1,4 @@
-numbers=c(1:50)
+numbers = c(1:50)
 dfs.numbers=to.dfs(numbers)
 funcMap=function(k,v){
 key=ifelse(v%%2==0,”Even”,”Odd”);
